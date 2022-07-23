@@ -1,9 +1,6 @@
 package main;
 
-import dao.inter.EmployementHistoryDaoInter;
-import dao.inter.SkillDaoInter;
-import dao.inter.UserDaoInter;
-import dao.inter.UserSkillDaoInter;
+import dao.inter.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -12,6 +9,11 @@ public class Main {
 //        userDao.removeUser(2);
 //       List<User> list2 =  userDao.getAllUser();
 //        System.out.println("list2= " + list2);
+
+//        CountryDaoInter dao = Context.instanceCountryDao();
+//        System.out.println(dao.getAllCountries());
+
+
         SkillDaoInter dao = Context.instanceSkillDao();
         System.out.println(dao.getAllSkills());
 
