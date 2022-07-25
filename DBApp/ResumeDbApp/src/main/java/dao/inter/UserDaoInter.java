@@ -6,7 +6,7 @@ import entity.UserSkill;
 import java.util.List;
 
 public interface UserDaoInter {
-    List<User> getAllUser() throws Exception;
+    List<User> getAllUser();
     public User getById(int id);
     public boolean updateUser(User u);
     public boolean addUser(User u);

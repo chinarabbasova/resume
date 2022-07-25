@@ -12,10 +12,11 @@ public class Main {
 
 //        CountryDaoInter dao = Context.instanceCountryDao();
 //        System.out.println(dao.getAllCountries());
+UserDaoInter dao = Context.instanceUserDao();
+        System.out.println(dao.getById(5));
 
-
-        SkillDaoInter dao = Context.instanceSkillDao();
-        System.out.println(dao.getAllSkills());
+//        SkillDaoInter dao = Context.instanceSkillDao();
+//        System.out.println(dao.getAllSkills());
 
 
 //        EmployementHistoryDaoInter dao = Context.instanceEmploymentHistoryDao();

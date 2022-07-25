@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ResumeDbApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/ResumeDbApp</output-path>
+    <root id="root">
+      <element id="archive" name="ResumeDbApp.jar">
+        <element id="module-output" name="ResumeDbApp" />
+      </element>
+      <element id="artifact" artifact-name="ResumeWebApp:war exploded" />
+    </root>
+  </artifact>
+</component>
