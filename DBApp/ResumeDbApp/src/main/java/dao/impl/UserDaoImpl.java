@@ -57,7 +57,6 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
     @Override
     public User getById(int userId) {
         User result = null;
-
         try (Connection c = connect();
              Statement stmt = c.createStatement()) {
             stmt.execute("select u.*,n.nationality ,c.name as birthplace  from user u " +
