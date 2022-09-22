@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ResumeDbApp" />
-        <module name="ResumeDesktopApp" />
+        <module name="DBApp" />
         <module name="ResumeWebApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DBApp" target="1.5" />
+      <module name="ResumeDesktopApp" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/jdbc/ResumeWebApp" />
     <file type="web" url="file://$PROJECT_DIR$/ResumeWebApp" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,10 +10,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ResumeWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc/ResumeWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc/ResumeDbApp/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
